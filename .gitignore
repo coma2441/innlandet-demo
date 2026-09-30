@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Outputs
+out/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# OS / tooling noise
+.DS_Store
+__pycache__/
+.venv/
+node_modules/
