@@ -16,7 +16,7 @@ URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=60.79&lon=
 USER_AGENT = "innlandet-demo/0.1 github.com/coma2441/innlandet-demo"
 FIXTURE = ROOT / "fixtures" / "met_hamar.json"
 OUT = ROOT / "out" / "probe.json"
-HOURS = 24
+HOURS = 12
 LOCAL_TZ = ZoneInfo("Europe/Oslo")
 
 
