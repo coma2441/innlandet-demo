@@ -1,5 +1,8 @@
 {
   "permissions": {
+    "allow": [
+      "mcp__met__forecast"
+    ],
     "deny": [
       "Read(./.env)",
       "Read(./.env.local)",

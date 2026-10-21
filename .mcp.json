@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "met": {
+      "command": ".venv/bin/python",
+      "args": ["harness/mcp_met.py", "--offline"]
+    }
+  }
+}
