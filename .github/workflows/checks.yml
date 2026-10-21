@@ -1,0 +1,11 @@
+# Offline checks on every pull request: no network, no model, no secrets.
+name: checks
+on: [pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 harness/probe.py --offline
+      - run: python3 eval/check_probe.py
+      - run: ./harness/run.sh --offline --dry-run
